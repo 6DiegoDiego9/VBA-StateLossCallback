@@ -1,7 +1,7 @@
 # VBA-StateLossCallback
 A class that allows safe callbacks when state is lost.
 
-- Each instance of this class will make a call back to the provided macro when state is lost (Application exists, Stop button is pressed in IDE, Desgin Mode etc.)
+- Each instance of this class will make a call back to the provided macro when state is lost (Application exits, Stop button is pressed in IDE, Design Mode etc.)
 - **No** memory leaks, **no** crashes
 - Compatible with Windows and Mac on both x32 and x64
 
